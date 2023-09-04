@@ -13,6 +13,9 @@ export default function Navbar() {
         <li>
           <Link href="/about">Sobre</Link>
         </li>
+        <li>
+          <Link href="/feedback">Feedback</Link>
+        </li>
       </ul>
     </>
   )
