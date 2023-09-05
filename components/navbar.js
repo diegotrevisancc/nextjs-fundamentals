@@ -16,6 +16,9 @@ export default function Navbar() {
         <li>
           <Link href="/feedback">Feedback</Link>
         </li>
+        <li>
+          <Link href="/todos">To-Do's</Link>
+        </li>
       </ul>
     </>
   )
