@@ -8,6 +8,7 @@ export default function Todo() {
     <>
       <Link href="/todos">Voltar</Link>
       <h1>Todoid dessa página: {todoId}</h1>
+      <p>Comentário: <Link href={`/todos/${todoId}/comments/1`}>Detalhes</Link></p>
     </>
   )
 }
